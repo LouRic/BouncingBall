@@ -80,8 +80,10 @@ public class PlayerBall extends Ball implements SensorEventListener {
             ax = event.values[0];// * 0.75f;
             ay = event.values[1];// * 0.75f;
 
-            sumX += ax;
-            sumY += ay;
+            if (penalty == 0) {
+                sumX += ax;
+                sumY += ay;
+            }
         }
     }
 

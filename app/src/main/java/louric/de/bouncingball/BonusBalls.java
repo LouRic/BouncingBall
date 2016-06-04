@@ -3,8 +3,8 @@ package louric.de.bouncingball;
 import static louric.de.bouncingball.Geometry.*;
 
 public class BonusBalls {
-    public static float PROBABILITY = 0.005f;
-    public static float SPEED = Ball.START_SPEED * 1.2f;
+    public static float PROBABILITY = 0.0025f;
+    public static float SPEED = Ball.START_SPEED * 1.5f;
 
     public static class BonusBall extends Ball {
 
